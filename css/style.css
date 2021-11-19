@@ -68,7 +68,7 @@ nav{
 
 
 .nav-links .current{
-    border-bottom: 3px solid black;
+    border: 3px solid black;
 }
 
 
