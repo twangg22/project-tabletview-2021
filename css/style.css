@@ -158,3 +158,42 @@ footer p{
     max-width: 40%;
     height: auto;
 }
+
+@media screen and (min-width: 768px){
+    h1 {
+        font-size: 3em;
+    }
+    .nav-links ul li a{
+        font-size: 1.5em;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: auto;
+        min-height: auto;
+        gap: 15px;
+    }
+    .item2,  .item5 , .item8{
+        font-size: 1.5em;
+    }
+    
+    #albums img{
+        border: 5px solid black;
+        margin: 10px;
+        max-width: 40%;
+        height: auto;
+    }
+    
+    #movies img{
+        border: 5px solid black;
+        margin: 10px;
+        max-width: 30%;
+        height: auto;
+    }
+    #books img{
+        border: 5px solid black;
+        margin: 10px;
+        max-width: 30%;
+        height: auto;
+    }
+}
